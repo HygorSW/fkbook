@@ -1,0 +1,89 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fk Book - Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  
+  <body style="background-color: #111111;">
+    <div class="container">
+        
+          <div class="content first-content">
+            <a class="icon-link icon-link-hover" href="/index.html" style="text-decoration: none; top: 0; position: absolute; left: 0; z-index: 100; margin: 40px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" color="white" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                    <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                  </svg>
+          
+              </a>
+              <div class="first-column">
+              
+                  <h2 class="title title-primary">Bem vindo!</h2>
+                
+              </div>    
+              <div class="second-column">
+              <form method="#" action="#">
+                      <h2>Cadastrar</h2>
+                      <div class="inputbox">
+                          <ion-icbon name="mail-outline"></ion-icon>
+                          <input type="text" name="nome">
+                          <label for="">Usuario</label>
+                      </div>
+                      <div class="inputbox">
+                          <ion-icon name="lock-closed-outline"></ion-icon>
+                          <input type="email" name="email">
+                          <label for="">Email</label>
+                      </div>
+                      <div class="inputbox">
+                          <ion-icon name="lock-closed-outline"></ion-icon>
+                          <input type="password" name="senha">
+                          <label for="">Senha</label>
+                      </div>
+                     
+                      <a href="/home">
+                          <button>Log in</button>
+                      </a>
+                      <div class="register">
+                          <p> Já possui uma conta? <a href="#"  id="signin" >Sign-in</a></p>
+                      </div>
+                  </form>
+              </div><!-- second column -->
+          </div><!-- first content -->
+          <div class="content second-content">
+              <div class="first-column">
+                  <h2 class="title title-primary">Olá, Amigo!</h2>
+              
+              </div>
+              <div class="second-column">
+                
+                  <form action="#">
+                      <h2>Login</h2>
+                      <div class="inputbox">
+                          <ion-icon name="mail-outline"></ion-icon>
+                          <input type="email" required>
+                          <label for="">Email</label>
+                      </div>
+                      <div class="inputbox">
+                          <ion-icon name="lock-closed-outline"></ion-icon>
+                          <input type="password" required>
+                          <label for="">Senha</label>
+                      </div>
+                     
+                      <button>Log in</button>
+                      <div class="register">
+                          <p>Não possui uma conta? <a href="#" id="signup"  >Register</a></p>
+                      </div>
+                  </form>
+              </div><!-- second column -->
+          </div><!-- second-content -->
+      </div>
+      <script src="./js/script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </body>
+  
+  
